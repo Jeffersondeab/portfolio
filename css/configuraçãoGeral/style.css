@@ -1,0 +1,47 @@
+:root{
+    --primary:#1d747a;
+}
+
+
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.experience-list,
+.mytools-list__item{
+    list-style: none;
+}
+
+.fa-html5{
+    color: orangered;
+}
+
+.fa-css3-alt{
+    color: blue;
+}
+
+.fa-square-js{
+    color: yellow;
+}
+
+.fa-figma{
+    background:linear-gradient(rgb(255, 81, 0), purple, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: .3s;
+}
+.fa-figma:hover{
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+

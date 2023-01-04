@@ -1,0 +1,18 @@
+.footer-content span{
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-content a{
+    color: black;
+}
+
+
+@media screen and (max-width:500px) {
+    .footer-content span{
+        margin-left: 0%;
+    }
+}
