@@ -6,25 +6,39 @@
 }
 
 
-.experience-section h2{
-    margin-left: 2rem;
-}
 
  
 
-.experienceTitle{
-    background-color: black;
+.experienceTitle,
+.mytools-Title,
+.aboutMe-btn{
+    font-size: 1.2rem;
+    background-color: var(--mainbtn);
     color: white;
     display: block;
     text-align: center;
     width: 20rem;
     cursor: pointer;
+    margin-top: .5rem;
+    margin-left: 30%;
+    padding: .2rem;
+    border-radius: .5rem;
+}
+
+.experienceTitle:hover,
+.mytools-Title:hover,
+.aboutMe-btn:hover{
+    background-color: var(--primary);
+    transition: .3s;
 }
 
 
-.experience-list{
+
+.experience-list,
+.mytools-list, 
+.aboutMe-content{
     padding: 2rem;
-    display: none;
+    display: none; 
     transition: .3s;
     animation: slideMainContent 1s;
 }
@@ -40,13 +54,6 @@
 
 
  
-.mytools h3{
-    margin-left: 2rem;
-}
-
-.mytools-list{
-    display: none;
-}
 
 .mytools-list__item{
     font-size: 3rem;
@@ -82,10 +89,27 @@
 }
 
 
+
+
+@media screen and (max-width:900px) {
+    .experienceTitle, .mytools-Title{
+        margin-left: 15%;
+        width: 50vw;
+    }
+}
+
+
+
 @media screen and (max-width:500px) {
     .main-content{
         width: 100%;
         margin-left: 0%;
+    }
+
+    .experienceTitle, .mytools-Title{
+        margin: auto;
+        margin-top: .5rem;
+        width: 70vw;
     }
 
     .experience-list{

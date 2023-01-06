@@ -1,5 +1,3 @@
- 
-
 const experience = document.querySelector('.experienceTitle')
 const experienceList = document.querySelector('.experience-list')
 
@@ -21,4 +19,4 @@ init()
 
 export default{
     init
-} 
+}  

@@ -1,6 +1,7 @@
 :root{
     --primary:hsl(180, 4%, 22%);
-    /* --primary:hsl(185, 18%, 24%); */
+    --mainbtn: rgb(0, 0, 0);
+
 }
 
 
