@@ -37,9 +37,15 @@
     width: 20vw;
     border-radius: 1rem;
 }
+
+
  
 .mytools h3{
     margin-left: 2rem;
+}
+
+.mytools-list{
+    display: none;
 }
 
 .mytools-list__item{

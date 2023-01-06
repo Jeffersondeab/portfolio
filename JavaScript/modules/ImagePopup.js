@@ -1,6 +1,6 @@
 const experienceImages = document.querySelectorAll('.experienceImg')
 const popupWrapper = document.querySelector('.popup-wrapper')
-const headerContent = document.querySelector('.header-content')
+
 
 
 experienceImages.forEach((experienceImg) => {
@@ -33,19 +33,13 @@ popupWrapper.addEventListener('click', () =>{
 })
 
 
+function init(){
+    popupWrapper
+    experienceImages
+}
 
+init()
 
-
-
-const experience = document.querySelector('.experienceTitle')
-const experienceList = document.querySelector('.experience-list')
-
-experience.addEventListener('click', ()=>{
-    if(experienceList.style.display === 'block'){
-        experienceList.style.display = 'none'
-    }else{
-        experienceList.style.display = 'block'
-        experienceList.style.transform = 'translateY(0)'
-    }
-})
- 
+export default{
+    init
+}
