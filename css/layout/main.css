@@ -9,9 +9,10 @@
 
  
 
-.experienceTitle,
-.mytools-Title,
-.aboutMe-btn{
+.experience-btn,
+.mytools-btn,
+.aboutMe-btn,
+.MyCurriculum-btn{
     font-size: 1.2rem;
     background-color: var(--mainbtn);
     color: white;
@@ -25,9 +26,10 @@
     border-radius: .5rem;
 }
 
-.experienceTitle:hover,
-.mytools-Title:hover,
-.aboutMe-btn:hover{
+.experience-btn:hover,
+.mytools-btn:hover,
+.aboutMe-btn:hover,
+.MyCurriculum-btn:hover{
     background-color: var(--primary);
     transition: .3s;
 }
@@ -36,7 +38,8 @@
 
 .experience-list,
 .mytools-list, 
-.aboutMe-content{
+.aboutMe-content,
+.MyCurriculum-content{
     padding: 2rem;
     display: none; 
     transition: .3s;
@@ -92,7 +95,10 @@
 
 
 @media screen and (max-width:900px) {
-    .experienceTitle, .mytools-Title{
+    .experience-btn,
+    .mytools-btn,
+    .aboutMe-btn,
+    .MyCurriculum-btn{
         margin-left: 15%;
         width: 50vw;
     }
@@ -106,7 +112,10 @@
         margin-left: 0%;
     }
 
-    .experienceTitle, .mytools-Title{
+    .experience-btn,
+    .mytools-btn,
+    .aboutMe-btn,
+    .MyCurriculum-btn{
         margin: auto;
         margin-top: .5rem;
         width: 70vw;
