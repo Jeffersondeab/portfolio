@@ -1,5 +1,6 @@
 :root{
-    --primary:hsl(180, 4%, 22%);
+    
+    --primary:hsla(0, 0%, 26%, 0.562);
     --mainbtn: rgb(0, 0, 0);
 
 }

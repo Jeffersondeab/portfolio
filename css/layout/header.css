@@ -5,6 +5,7 @@
     position: fixed;
     top: 0;
     width: 35%;
+    margin-bottom: 2rem;
 }
 
 .main-img img{
@@ -29,12 +30,25 @@
 .contato-list a{
     color: rgb(0, 0, 0);
     transition: color .3s;
+    margin-bottom: 1.5rem;
 }
 
 .contato-list a:hover{
     color: rgb(97, 97, 97);
     text-decoration: underline;
 }
+
+
+
+@media screen and (max-width:900px){
+
+    .contato{
+        display: flex;
+        margin-top: 2rem;
+        gap: .7rem;
+    }
+}
+
 
 
 @media screen and (max-width:500px) {
@@ -56,12 +70,6 @@
 
     .header-content h3{
         margin: .5rem;
-    }
-    
-    .contato{
-        display: flex;
-        margin-top: 2rem;
-        gap: .5rem;
     }
     
 }
