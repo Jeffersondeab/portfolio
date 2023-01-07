@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+.wraprow{
+    margin-left: 35%;
+}
+
 .footer-content a{
     color: black;
 }
@@ -13,6 +17,10 @@
 
 @media screen and (max-width:500px) {
     .footer-content span{
+        margin-left: 0%;
+    }
+
+    .wraprow{
         margin-left: 0%;
     }
 }

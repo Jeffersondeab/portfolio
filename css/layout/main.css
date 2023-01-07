@@ -3,6 +3,7 @@
 .main-content{
     width: 65%;
     margin-left: 35%;
+    margin-bottom: 2rem;
 }
 
 
@@ -22,7 +23,7 @@
     cursor: pointer;
     margin-top: .5rem;
     margin-left: 30%;
-    padding: .2rem;
+    padding: .5rem;
     border-radius: .5rem;
     border: 0;
 }
