@@ -4,8 +4,8 @@
 }
 
 
-body{
-    background-image: url(/../imagens/pexels-eva-bronzini-5949810.jpg);
+.background-fixed{
+    background-image: url(../../imagens/pexels-eva-bronzini-5949810.jpg);
     background-size: cover;    
     font-family: 'Nunito Sans', sans-serif;
     margin: 0%;
