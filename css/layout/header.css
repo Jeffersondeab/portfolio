@@ -27,7 +27,7 @@
 .contato{
     margin: auto;
     width: 80vw;
-    margin-top: 5rem;
+    margin-top: 3rem;
     list-style: none;
     font-size: 2rem;
 }
@@ -35,7 +35,6 @@
 .contato-list a{
     color: rgb(0, 0, 0);
     transition: color .3s;
-    margin-bottom: 1rem;
 }
 
 .contato-list a:hover{

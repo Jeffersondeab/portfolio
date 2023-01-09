@@ -9,6 +9,7 @@
     background-image: url(../../imagens/pexels-rodrigo-souza-2531601.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: 'Nunito Sans', sans-serif;
     margin: 0%;
     
