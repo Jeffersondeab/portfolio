@@ -1,8 +1,6 @@
 :root{
-    
     --primary:hsla(0, 0%, 26%, 0.253);
-    --mainbtn: rgb(0, 0, 0);
-
+    --mainbtn: rgba(100, 100, 100, 0.5);
 }
 
 

@@ -16,7 +16,7 @@
 .MyCurriculum-btn{
     font-size: 1.2rem;
     background-color: var(--mainbtn);
-    color: white;
+    color: rgb(233, 233, 233);
     display: block;
     text-align: center;
     width: 20rem;
@@ -47,6 +47,7 @@
     transition: .3s;
     animation: slideMainContent 1s;
     background-color: var(--primary);
+    color: white;
     border-radius: .5rem;
 }
 

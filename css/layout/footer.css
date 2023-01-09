@@ -10,8 +10,8 @@
     margin-left: 35%;
 }
 
-.footer-content a{
-    color: black;
+.footer-content a, span{
+    color: rgb(233, 233, 233);
 }
 
 
