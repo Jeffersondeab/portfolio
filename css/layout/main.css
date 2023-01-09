@@ -55,13 +55,11 @@
 
 .experienceImg{
     cursor: pointer;
-    height: 25vh;
-    width: 20vw;
+    height: 30vh;
+    width: 25vw;
     border-radius: 1rem;
 }
 
-
- 
 
 .mytools-list__item{
     font-size: 3rem;
