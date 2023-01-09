@@ -57,8 +57,10 @@
     cursor: pointer;
     height: 30vh;
     width: 25vw;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
+
+
 
 
 .mytools-list__item{
