@@ -46,6 +46,8 @@
     display: none; 
     transition: .3s;
     animation: slideMainContent 1s;
+    background-color: var(--primary);
+    border-radius: .5rem;
 }
 
 
