@@ -8,8 +8,6 @@
 
 
 
- 
-
 .experience-btn,
 .mytools-btn,
 .aboutMe-btn,
@@ -62,7 +60,6 @@
 
 
 
-
 .mytools-list__item{
     font-size: 3rem;
     transition: .3s;
@@ -96,6 +93,14 @@
     color: var(--primary);
 }
 
+.MyCurriculum-content{
+    text-align: center;
+}
+ 
+.MyCurriculum-content a{
+    color: rgb(255, 255, 255);
+    font-size: 3rem; 
+}
 
 
 
