@@ -20,7 +20,8 @@ a{
 }
 
 .experience-list,
-.mytools-list__item{
+.mytools-list__item,
+.animation-list{
     list-style: none;
 }
 
