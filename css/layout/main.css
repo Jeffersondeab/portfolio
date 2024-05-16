@@ -4,6 +4,7 @@
     width: 65%;
     margin-left: 35%;
     margin-bottom: 20rem;
+    margin-top: 5rem;
 }
 
 
@@ -28,6 +29,7 @@
 .mytools-btn,
 .aboutMe-btn,
 .MyCurriculum-btn{
+ 
     margin-bottom: .5rem;
 }
 
@@ -121,7 +123,7 @@
     .experienceImg{
         width: 30vw;
     }
-
+    
 }
 
 
