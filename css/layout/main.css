@@ -1,6 +1,7 @@
 
 
 .main-content{
+    padding-top: 45px;
     width: 65%;
     margin-left: 35%;
     margin-bottom: 5rem;
@@ -24,6 +25,39 @@
     border-radius: .5rem;
     border: 0;
 }
+
+
+.experience-base{
+    font-size: 1.2rem;
+    background-color: var(--mainbtn);
+    color: rgb(233, 233, 233);
+    display: block;
+    text-align: center;
+    width: 24rem;
+    cursor: pointer;
+    margin-top: .5rem;
+    margin-left: 30%;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 0;
+}
+
+.experience-btn{
+    font-size: 1.2rem;
+    background-color: var(--primary);
+    color: rgb(233, 233, 233);
+    display: block;
+    text-align: center;
+    width: 25rem;
+    cursor: pointer;
+    margin-top: .5rem;
+    margin-left: 35%;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 0;
+}
+
+
 
 .mytools-btn,
 .aboutMe-btn,
