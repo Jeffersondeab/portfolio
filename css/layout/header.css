@@ -21,25 +21,31 @@
 }
 
 .header-content h3{
-    margin: 2rem;
+   text-align: right;
+    float: right;
+    margin-top: 15rem;
 }
 
 .contato{
+    display: flex;
+    gap:.5rem;
     margin: auto;
-    width: 80vw;
-    margin-top: 3rem;
+    margin-top: 20rem;
+    float: right;
     list-style: none;
-    font-size: 2rem;
+    font-size: 1rem;
+    width: 30%;
 }
 
 .contato-list a{
     color: rgb(0, 0, 0);
-    transition: color .3s;
+    transition: color .2s linear, border .2s linear;
+    border-bottom: 1px dotted;
 }
 
 .contato-list a:hover{
     color: rgb(97, 97, 97);
-    text-decoration: underline;
+    border-bottom: none;
 }
 
 

@@ -2,6 +2,14 @@
 
 const experience = document.querySelector('.experience-btn')
 const experienceList = document.querySelector('.experience-list')
+const experienceBase = document.querySelector('.experience-base')
+
+
+experienceBase.addEventListener('click', ()=>{
+    if(experienceList.style.display === 'block'){
+        experienceList.style.display = 'none'
+    }
+})
 
 experience.addEventListener('click', ()=>{
     if(experienceList.style.display === 'block'){
