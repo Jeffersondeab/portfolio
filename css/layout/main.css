@@ -5,8 +5,8 @@
     width: 65%;
     margin-left: 35%;
     margin-bottom: 20rem;
-    margin-top: 5rem;
 }
+
 
 
 .experience-btn,
@@ -63,10 +63,11 @@
 .mytools-btn,
 .aboutMe-btn,
 .MyCurriculum-btn{
- 
     margin-bottom: .5rem;
 }
 
+
+.experience-base:hover,
 .experience-btn:hover,
 .mytools-btn:hover,
 .aboutMe-btn:hover,
@@ -128,7 +129,7 @@
 
 
 
-.firstExperience-link{
+.Experience-link__1{
     font-family: 'Corinthia', cursive;
     font-size: 3rem;
     color: var(--primary);
