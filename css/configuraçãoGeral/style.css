@@ -1,16 +1,12 @@
 :root{
     --primary:hsla(0, 0%, 26%, 0.253);
     --mainbtn: rgba(100, 100, 100, 0.5);
+    --backwhite: rgb(241, 241, 241);
 }
 
  
 
 .background-fixed{
-<<<<<<< HEAD
-    background-image: url(../../imagens/); 
-=======
-    background-image: url(../../imagens/pexels-lazybird-1260727.jpg); 
->>>>>>> 8bae0ab0bd594b0fbd5dfc4e5e67da180791da4e
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
