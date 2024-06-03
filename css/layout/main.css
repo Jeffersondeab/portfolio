@@ -5,6 +5,7 @@
     width: 65%;
     margin-left: 35%;
     margin-bottom: 20rem;
+    display: flex;
 }
 
 
@@ -18,7 +19,7 @@
     color: rgb(233, 233, 233);
     display: block;
     text-align: center;
-    width: 25rem;
+    width: 10rem;
     cursor: pointer;
     margin-top: .5rem;
     margin-left: 30%;
@@ -34,7 +35,7 @@
     color: rgb(233, 233, 233);
     display: block;
     text-align: center;
-    width: 24rem;
+    width: 10rem;
     cursor: pointer;
     margin-top: .5rem;
     margin-left: 30%;
