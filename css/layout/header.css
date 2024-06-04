@@ -30,7 +30,7 @@
 
 .contato{
     display: flex;
-    gap:1rem;
+    gap:.5rem;
     margin: auto;
     margin-top: 30rem;
     float: right;
@@ -43,6 +43,12 @@
     color: rgb(167, 167, 167);
     transition: color .2s linear, border .2s linear;
     border-bottom: 1px dotted;
+}
+
+.separate{
+   color: var(--mainbtn);
+    font-size: 1rem;
+
 }
 
 .contato-list a:hover{

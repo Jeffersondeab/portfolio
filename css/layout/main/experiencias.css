@@ -1,10 +1,10 @@
 .experience-base{
     background-color: var(--backwhite);
-    font-size: 1.2rem; 
+    font-size: .8rem; 
     color: #787878;
     display: block;
     text-align: center;
-    width: 24rem;
+    width: 14rem;
     cursor: pointer;
     margin-top: .5rem;
     margin-left: 30%;
@@ -14,11 +14,11 @@
 }
 
 .experience-btn{
-    font-size: 1.2rem;
+    font-size: .8rem;
     color: #787878;
     display: block;
     text-align: center;
-    width: 25rem;
+    width: 15rem;
     cursor: pointer;
     margin-top: .5rem;
     margin-left: 35%;

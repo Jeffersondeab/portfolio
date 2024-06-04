@@ -4,19 +4,21 @@
     width: 65%;
     margin-left: 35%;
     margin-bottom: 20rem;
+  
    
 }
+
 
 
 .experience-btn,
 .mytools-btn,
 .aboutMe-btn,
 .MyCurriculum-btn{
-    font-size: 1.2rem;
+    font-size: .8rem;
     color: #787878;
     display: block;
     text-align: center;
-    width: 25rem;
+    width: 15rem;
     cursor: pointer;
     margin-top: .5rem;
     margin-left: 30%;
