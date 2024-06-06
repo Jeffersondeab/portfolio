@@ -1,0 +1,16 @@
+.nav-list{
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+    width: 70vw;
+    
+}
+
+.nav-item{
+    width: 15rem;
+
+}
+
+.nav-base{
+    
+}
