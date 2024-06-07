@@ -3,14 +3,11 @@
     background-color: green;
     justify-content: space-between;
     width: 70vw;
-    
+    margin: auto;
+    margin-top: 10rem;
 }
 
 .nav-item{
     width: 15rem;
-
 }
 
-.nav-base{
-    
-}
