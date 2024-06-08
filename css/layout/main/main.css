@@ -1,10 +1,11 @@
 
-
 .main-content{
     padding-top: 45px;
     width: 65%;
     margin-left: 35%;
     margin-bottom: 20rem;
+  
+   
 }
 
 
@@ -13,12 +14,11 @@
 .mytools-btn,
 .aboutMe-btn,
 .MyCurriculum-btn{
-    font-size: 1.2rem;
-    background-color: var(--mainbtn);
-    color: rgb(233, 233, 233);
+    font-size: .8rem;
+    color: #787878;
     display: block;
     text-align: center;
-    width: 25rem;
+    width: 15rem;
     cursor: pointer;
     margin-top: .5rem;
     margin-left: 30%;
@@ -28,37 +28,7 @@
 }
 
 
-.experience-base{
-    font-size: 1.2rem;
-    background-color: var(--mainbtn);
-    color: rgb(233, 233, 233);
-    display: block;
-    text-align: center;
-    width: 24rem;
-    cursor: pointer;
-    margin-top: .5rem;
-    margin-left: 30%;
-    padding: .5rem;
-    border-radius: .5rem;
-    border: 0;
-}
-
-.experience-btn{
-    font-size: 1.2rem;
-    background-color: var(--primary);
-    color: rgb(233, 233, 233);
-    display: block;
-    text-align: center;
-    width: 25rem;
-    cursor: pointer;
-    margin-top: .5rem;
-    margin-left: 35%;
-    padding: .5rem;
-    border-radius: .5rem;
-    border: 0;
-}
-
-
+ 
 
 .mytools-btn,
 .aboutMe-btn,
@@ -98,6 +68,7 @@
     height: 30vh;
     width: 25vw;
     border-radius: .5rem;
+    border: 3px solid black;
 }
 
 
@@ -117,23 +88,7 @@
     width: 3rem;
 }
 
-.popup-wrapper{
-    display: none;
-    background: rgba(0, 0, 0, .5);
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-}
-
-
-
-.Experience-link__1{
-    font-family: 'Corinthia', cursive;
-    font-size: 3rem;
-    color: var(--primary);
-}
+ 
 
 .MyCurriculum-content{
     text-align: center;
@@ -145,6 +100,7 @@
 }
 
 
+/* 
 
 @media screen and (max-width:900px) {
     .experience-btn,
@@ -189,4 +145,4 @@
         margin: auto;
     }
 
-}
+} */

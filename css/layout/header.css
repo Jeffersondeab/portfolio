@@ -9,6 +9,8 @@
     top: 0;
     width: 35%;
     margin-bottom: 2rem;
+    background-image: url(/imagens/bg.jpg);
+    background-size: cover;
 }
 
 
@@ -38,13 +40,19 @@
 }
 
 .contato-list a{
-    color: rgb(0, 0, 0);
+    color: rgb(167, 167, 167);
     transition: color .2s linear, border .2s linear;
     border-bottom: 1px dotted;
 }
 
+.separate{
+   color: var(--mainbtn);
+    font-size: 1rem;
+
+}
+
 .contato-list a:hover{
-    color: rgb(97, 97, 97);
+
     border-bottom: none;
 }
 
