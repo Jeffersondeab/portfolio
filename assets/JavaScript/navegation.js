@@ -1,14 +1,32 @@
 const navlinks = document.querySelectorAll('.nav-link')
 const sections = document.querySelectorAll('.section')
 
-let activeLink = 0;
 
-links.forEach(link, i => {
+ 
+
+
+
+function init(){
+    navlinks
+    sections
+}
+
+init()
+
+export default{
+    init
+}
+
+
+
+/* let activeLink = 0;
+
+navlinks.forEach(link, i => {
     link.addEventListener('click',()=>{
         if(activeLink != i){
-            links[activeLink].classList.remove('active');
+            navlinks[activeLink].classList.remove('active');
             link.classList.add('active')
-            sections[activeLink].classList.remove(active);
+            sections[activeLink].classList.remove('active');
 
 
             setTimeout(()=> {
@@ -21,6 +39,19 @@ links.forEach(link, i => {
 
 
 
+function init(){
+    navlinks
+    sections
+    link
+}
+
+init()
+
+export default{
+    init
+}
+
+ */
 
 /* 
 var teste = document.querySelector('.nav-link')
