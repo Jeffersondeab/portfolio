@@ -1,13 +1,35 @@
-.nav-list{
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
-    background-color: green;
-    justify-content: space-between;
-    width: 70vw;
-    margin: auto;
-    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
 }
 
-.nav-item{
-    width: 15rem;
+
+.nav-list{
+    list-style: none;
+    display: flex;
 }
+
+.nav-link{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+    margin: 0 20px;
+    line-height: 80px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+
+.nav-link:hover, .nav-link.active{
+    opacity: 1;
+}
+
 
