@@ -1,14 +1,29 @@
-const navlinks = document.querySelectorAll('.nav-link')
-const sections = document.querySelectorAll('.section')
+let section = document.querySelectorAll('section')
+let navlink = document.querySelectorAll('header nav a')
 
+window.onscroll = () =>{
 
- 
+        section.forEach(sec =>{
+            let top = window.scrollY;
+            let offset = sec.offsetTop - 150;
+            let height = sec.offsetHeight;
+            let id = sec.getAttribute('id')
 
+            if(top >= offset && top < offset + height){
+                navlink.forEach(links => {
+                    links.classList.remove('active')
+                    document.querySelector('header nav a [hef*=' + id 
+                    + ']').classList.add
+                    ('active'); 
+                });
+            }
+        })
+    }
 
 
 function init(){
-    navlinks
-    sections
+    navlink
+    section
 }
 
 init()
