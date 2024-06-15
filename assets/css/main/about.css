@@ -25,6 +25,7 @@
 .about-container__img img{
     width: 25vw;
     border-radius: 1rem;
+    
 }
 
 .about-text{
@@ -38,7 +39,7 @@
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 900px) {
 
     .about{
         margin-top: 5em;

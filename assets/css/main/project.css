@@ -77,3 +77,13 @@
 .project-card:hover .content{
     opacity: 1;
 }
+
+
+
+
+@media screen and (max-width: 900px){
+    .filter{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

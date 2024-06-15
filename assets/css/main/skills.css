@@ -23,12 +23,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 100px;
-
 }
 
 
 .skill-card{
     position: relative;
+
 }
 
 .skill-img{
@@ -92,7 +92,7 @@
 
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 900px){
     .skill-container{
         display: flex;
         flex-direction: column;
