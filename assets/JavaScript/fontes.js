@@ -3,7 +3,7 @@ let projects = [
     {
         name: "project one",
         tags: "#frontend, #backEnd ",
-        image: "assets/imagens/projects/disney+1.png",
+        image: "/assets/imagens/projects/disney+1.png",
     },
 
 

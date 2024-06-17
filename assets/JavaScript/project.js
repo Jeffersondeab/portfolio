@@ -11,7 +11,7 @@ links.forEach(link =>{
 
 
 
-const filters = document.querySelector('.filter-btn');
+const filters = document.querySelectorAll('.filter-btn');
 
 filters.forEach(filterBtn => {
     filterBtn.addEventListener('click', () =>{
@@ -24,8 +24,9 @@ filters.forEach(filterBtn => {
                 card.classList.add('hide');
             }
         })
-        filters.forEach(btn => btn.classList.remove('active'))
-        filterBtn.classList.add('active')
+        
+        filters.forEach(btn => btn.classList.remove('active'));
+        filterBtn.classList.add('active');
     })
 })
 
