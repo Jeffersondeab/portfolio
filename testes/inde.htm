@@ -6,14 +6,42 @@
     <title>Document</title>
 </head>
 
+<style>
+    .teste{
+        background: hsl(0, 82%, 51%);
+    }
 
+    .active {
+        background: hsl(240, 100%, 50%);
+    }
+
+
+
+    .base_teste{
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        font-size: 5rem;   
+    }
+
+    .base_teste:nth-child(odd){
+        background: grey;
+    }
+    
+</style>
 
 <body>
     
-    <button class="teste active">teste 1</button>
-    <button class="teste active">teste 2</button>
-    <button class="teste active">teste 3</button>
+    <button class="teste " data-teste="teste01">teste 1</button>
+    <button class="teste " data-teste="teste02">teste 2</button>
+    <button class="teste " data-teste="teste03">teste 3</button>
 
+
+    <div class="base">
+        <div class="base_teste" id="teste01">teste 01</div>
+        <div class="base_teste" id="teste02">teste 02</div>
+        <div class="base_teste" id="teste03">teste 03</div>
+    </div>
 
     <script src="teste.js"></script>
 
