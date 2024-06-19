@@ -1,4 +1,41 @@
-let section = document.querySelectorAll('section')
+let navlink = document.querySelectorAll('.nav-link')
+
+
+const section = document.querySelectorAll('#sobremin, #skills, #projetos, #contrato')
+
+function scroll(sec){
+    const teste = document.getElementById(sec)
+    if(teste){
+        teste.scrollIntoView({behavior: 'smooth'})
+    }
+}
+
+navlink.forEach(navlinks => {
+    navlinks.addEventListener('click', () =>{
+        document.querySelector('.active')?.classList.remove('active')
+        navlinks.classList.add('active')
+
+        const sec = navlinks.getAttribute('data-center')
+        scroll(sec)
+    })
+})
+
+function init(){
+    navlink
+    section
+}
+
+init()
+
+export default{
+    init
+}
+
+
+
+
+
+/* let section = document.querySelectorAll('section')
 let navlink = document.querySelectorAll('header nav a')
 
 window.onscroll = () =>{
@@ -24,65 +61,6 @@ window.onscroll = () =>{
 function init(){
     navlink
     section
-}
-
-init()
-
-export default{
-    init
-}
-
-
-
-/* let activeLink = 0;
-
-navlinks.forEach(link, i => {
-    link.addEventListener('click',()=>{
-        if(activeLink != i){
-            navlinks[activeLink].classList.remove('active');
-            link.classList.add('active')
-            sections[activeLink].classList.remove('active');
-
-
-            setTimeout(()=> {
-                activeLink = i;
-                sections[i].classList.add('active');
-            }, 1000);
-        }
-    })        
-});
-
-
-
-function init(){
-    navlinks
-    sections
-    link
-}
-
-init()
-
-export default{
-    init
-}
-
- */
-
-/* 
-var teste = document.querySelector('.nav-link')
-
-
-
-teste.addEventListener('click', () =>{
-    
-    teste.forEach((teste) => {
-
-    });
-})
-
- 
-function init(){
-    teste
 }
 
 init()

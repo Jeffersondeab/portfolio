@@ -23,12 +23,12 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 100px;
-
 }
 
 
 .skill-card{
     position: relative;
+
 }
 
 .skill-img{
@@ -88,11 +88,21 @@
     border-color: #ffed4f;
     color: #ffed4f;
 }
+.skill-card:nth-child(4) .skill-level{
+    background: #ff4f4f28;
+    border-color: hsl(293, 100%, 65%);
+    color: hsl(293, 100%, 65%);
+}
+.skill-card:nth-child(5) .skill-level{
+    background: #ff4f4f28;
+    border-color: hsl(167, 100%, 65%);
+    color: hsl(167, 100%, 65%);
+}
 
 
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 900px){
     .skill-container{
         display: flex;
         flex-direction: column;
