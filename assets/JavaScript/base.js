@@ -7,3 +7,6 @@ import fontes from "./fontes.js/"
 navegation.init()
 project.init()
 fontes.init()
+
+
+

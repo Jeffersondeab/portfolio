@@ -1,4 +1,4 @@
-let projects = [
+/* let projects = [
 
     {
         name: "project one",
@@ -25,4 +25,4 @@ init()
 
 export default{
     init
-}
+} */

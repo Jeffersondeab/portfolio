@@ -6,7 +6,7 @@ const section = document.querySelectorAll('#sobremin, #skills, #projetos, #contr
 function scroll(section){ 
     const teste = document.getElementById(section)
     if(teste){
-        teste.scrollIntoView({behavior: '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            smooth'})
+        teste.scrollIntoView({ behavior: 'smooth'})                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            smooth'})
     }
 }
 
