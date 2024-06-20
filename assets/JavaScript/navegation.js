@@ -3,10 +3,10 @@ let navlink = document.querySelectorAll('.nav-link')
 
 const section = document.querySelectorAll('#sobremin, #skills, #projetos, #contrato')
 
-function scroll(sec){
-    const teste = document.getElementById(sec)
+function scroll(section){ 
+    const teste = document.getElementById(section)
     if(teste){
-        teste.scrollIntoView({behavior: 'smooth'})
+        teste.scrollIntoView({behavior: '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            smooth'})
     }
 }
 
@@ -15,8 +15,8 @@ navlink.forEach(navlinks => {
         document.querySelector('.active')?.classList.remove('active')
         navlinks.classList.add('active')
 
-        const sec = navlinks.getAttribute('data-center')
-        scroll(sec)
+        const section = navlinks.getAttribute('data-center')
+        scroll(section)
     })
 })
 

@@ -3,8 +3,8 @@ var teste = document.querySelectorAll('.teste')
 const sections = document.querySelectorAll('#teste01, #teste02, #teste03')
 
 
-function scroll(sec){
-    const bteste = document.getElementById(sec)
+function scroll(sections){
+    const bteste = document.getElementById(sections)
     if(bteste){
         bteste.scrollIntoView({ behavior: 'smooth'})
     }
@@ -16,8 +16,8 @@ function scroll(sec){
             document.querySelector('.active')?.classList.remove('active')
             listteste.classList.add('active')
 
-            const sec = listteste.getAttribute('data-teste')
-            scroll(sec)
+            const sections = listteste.getAttribute('data-teste')
+            scroll(sections)
         })
     })
 
