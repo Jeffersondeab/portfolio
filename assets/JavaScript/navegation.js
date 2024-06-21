@@ -1,28 +1,31 @@
 let navlink = document.querySelectorAll('.nav-link')
 
 
-const section = document.querySelectorAll('#sobremin, #skills, #projetos, #contrato')
+const sections = document.querySelectorAll('#sobremin, #skills, #projetos')
 
-function scroll(section){ 
-    const teste = document.getElementById(section)
-    if(teste){
-        teste.scrollIntoView({behavior: '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            smooth'})
+
+function scroll(sections){
+    const bteste = document.getElementById(sections)
+    if(bteste){
+        bteste.scrollIntoView({ behavior: 'smooth'})
     }
 }
 
-navlink.forEach(navlinks => {
-    navlinks.addEventListener('click', () =>{
-        document.querySelector('.active')?.classList.remove('active')
-        navlinks.classList.add('active')
 
-        const section = navlinks.getAttribute('data-center')
-        scroll(section)
+    teste.forEach(listteste =>{
+        listteste.addEventListener('click', () =>{
+            document.querySelector('.active')?.classList.remove('active')
+            listteste.classList.add('active')
+
+            const sections = listteste.getAttribute('data-teste')
+            scroll(sections)
+        })
     })
-})
+
 
 function init(){
     navlink
-    section
+    sections
 }
 
 init()
