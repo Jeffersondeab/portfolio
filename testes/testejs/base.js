@@ -1,3 +1,3 @@
-import teste from "./teste";
+import teste from '../testejs/teste.js';
 
 teste.init()

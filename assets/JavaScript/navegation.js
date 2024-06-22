@@ -1,7 +1,7 @@
 let navlink = document.querySelectorAll('.nav-link')
 
 
-const sections = document.querySelectorAll('#sobremin, #skills, #projetos')
+const sections = document.querySelectorAll('#sobremin, #skills, #projetos, #contrato')
 
 
 function scroll(sections){
@@ -17,7 +17,7 @@ function scroll(sections){
             document.querySelector('.active')?.classList.remove('active')
             listteste.classList.add('active')
 
-            const sections = listteste.getAttribute('data-teste')
+            const sections = listteste.getAttribute('data-center')
             scroll(sections)
         })
     })
