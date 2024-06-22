@@ -23,3 +23,15 @@ function scroll(sections){
 
 
 
+    function init(){
+        teste
+        sections
+    }
+
+    init()
+
+    export default{
+        init
+    }
+
+
