@@ -13,6 +13,9 @@ body{
     font-family: sans-serif;
 }
 
+.section:nth-child(odd){
+    background: rgb(117, 117, 117);
+}
 
 :root {
     --back: #191919;

@@ -1,7 +1,6 @@
-let navlink = document.querySelectorAll('.nav-link')
+var navlink = document.querySelectorAll('.nav-link')
 
-
-const sections = document.querySelectorAll('#sobremin, #skills, #projetos, #contrato')
+const sections = document.querySelectorAll('#sobremin, #skills, #projetos, #contato')
 
 
 function scroll(sections){
@@ -12,7 +11,7 @@ function scroll(sections){
 }
 
 
-    teste.forEach(listteste =>{
+    navlink.forEach(listteste =>{
         listteste.addEventListener('click', () =>{
             document.querySelector('.active')?.classList.remove('active')
             listteste.classList.add('active')
@@ -23,53 +22,17 @@ function scroll(sections){
     })
 
 
-function init(){
-    navlink
-    sections
-}
 
-init()
+    function init(){
+        navlink
+        sections
+    }
 
-export default{
-    init
-}
+    init()
 
-
-
-
-
-/* let section = document.querySelectorAll('section')
-let navlink = document.querySelectorAll('header nav a')
-
-window.onscroll = () =>{
-
-        section.forEach(sec =>{
-            let top = window.scrollY;
-            let offset = sec.offsetTop - 150;
-            let height = sec.offsetHeight; 
-            let id = sec.getAttribute('id')
-
-            if(top >= offset && top < offset + height){
-                navlink.forEach(links => {
-                    links.classList.remove('active')
-                    document.querySelector('header nav a [hef*=' + id 
-                    + ']').classList.add
-                    ('active'); 
-                });
-            }
-        })
+    export default{
+        init
     }
 
 
-function init(){
-    navlink
-    section
-}
-
-init()
-
-export default{
-    init
-} */
-
-
+ 
