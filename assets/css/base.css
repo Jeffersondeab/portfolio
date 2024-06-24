@@ -13,13 +13,26 @@ body{
     font-family: sans-serif;
 }
 
+
+
 .section:nth-child(odd){
-    background: rgb(117, 117, 117);
+    background: rgba(46, 46, 46, 0.397);
+}
+
+.heading{
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight:300;
+    padding-top: 4rem;
 }
 
 :root {
     --back: #191919;
 }
+
+
 
 
 

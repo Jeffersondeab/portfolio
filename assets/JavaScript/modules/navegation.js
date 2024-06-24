@@ -1,4 +1,4 @@
-var navlink = document.querySelectorAll('.nav-link')
+var navlink = document.querySelectorAll('.nav-btn')
 
 const sections = document.querySelectorAll('#sobremin, #skills, #projetos, #contato')
 
