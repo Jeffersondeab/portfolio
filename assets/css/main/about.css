@@ -1,7 +1,7 @@
 .about{
     background-color: rgb(0, 0, 0);
     min-width:90vw;
-    min-height: 105vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;    
     justify-content: center;
@@ -14,7 +14,7 @@
     gap: 1.5rem;
     max-width: 92vw;
     border-radius:1rem;
-    margin-top: 5rem;   
+     
 }
 
 .about-container__img img{
@@ -48,10 +48,5 @@
 
     .about-container__img img{
         float: none;
-    }
-
- 
-
-
-    
+    }  
 }
