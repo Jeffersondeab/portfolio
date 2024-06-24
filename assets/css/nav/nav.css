@@ -47,7 +47,8 @@
 
 @media screen and (max-width: 900px){
 
-    .nav-link{
-        font-size: 3vw;
+    .nav-btn{
+        font-size: .9rem;
+         
     }
 }
