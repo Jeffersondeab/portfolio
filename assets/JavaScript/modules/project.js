@@ -1,4 +1,26 @@
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
 const links = document.querySelectorAll('.link');
 
 links.forEach(link =>{
@@ -50,14 +72,12 @@ projects.forEach(project =>{
     `;
 })
 
-
+ */
 
 
 
 function init(){
-    links
-    projectContainer
-    filters
+    
 }
 
 init()

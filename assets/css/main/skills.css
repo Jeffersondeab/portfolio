@@ -1,19 +1,11 @@
 
 .skills{
-    position: relative;
-    margin: 100px 0;
-
+    min-width:80vw;
+    min-height: 100vh;
 }
 
 
-.heading{
-    text-align: center;
-    font-size: 60px;
-    color: #fff;
-    text-transform: capitalize;
-    font-weight:300;
-    margin-bottom: 100px;
-}
+ 
 
 
 .skill-container{
