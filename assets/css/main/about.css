@@ -5,19 +5,18 @@
     display: flex;
     align-items: center;    
     justify-content: center;
-    margin: auto; 
+    margin: auto;   
 }
 
 
 
 .about-container{
-    gap: 1.5rem;
     max-width: 92vw;
     border-radius:1rem;
     margin-top: 5rem;   
 }
 
-.about-container__img img{
+.about-container__img img{      
     margin-right: .5rem;
     float: left;
     max-width: 50vw;
@@ -39,14 +38,25 @@
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
 
     .about{
         margin-top: 5em;
         display: flex;
     }
 
+    .about-container{
+        max-width: 92vw;
+        border-radius:1rem;
+        margin-top: 5rem;  
+        margin: auto; 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center
+    }
+
     .about-container__img img{
-        float: none;
-    }  
+        float: none;  
+    }   
 }

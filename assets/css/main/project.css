@@ -34,9 +34,8 @@
 }
 
 .project-card{
-    position: relative;
+    display: flex;
     cursor: pointer;
-    display: block;
 }
 
 .project-card img{
