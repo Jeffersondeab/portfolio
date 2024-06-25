@@ -21,10 +21,10 @@
     cursor: pointer;
 }
 
-.filter-btn.active{
+/* .filter-btn.active{
     background: #ff3559;
     color: #fff;
-}
+} */
 
 .project-container{
     width: 100%;
