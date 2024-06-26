@@ -33,12 +33,13 @@
     font-weight: 500;
     line-height: 30px;
     text-align: justify;
+    hyphens: auto;
 }
 
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
 
     .about{
         margin-top: 5em;
@@ -54,6 +55,10 @@
         justify-content: center;
         flex-direction: column;
         align-items: center
+    }
+
+    .about-text{
+         
     }
 
     .about-container__img img{

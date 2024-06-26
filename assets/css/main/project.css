@@ -21,16 +21,14 @@
     cursor: pointer;
 }
 
-/* .filter-btn.active{
-    background: #ff3559;
-    color: #fff;
-} */
+
 
 .project-container{
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap:20px;
+    width: 90vw;
+    margin: auto;
 }
 
 .project-card{
@@ -72,10 +70,6 @@
     width: 90%;
 }
 
-/* .project-card:hover .content{
-    opacity: 1;
-}
- */
 
 
 
@@ -85,9 +79,14 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .project-container{
-        display: grid;
+    .project-container {
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .project-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 }

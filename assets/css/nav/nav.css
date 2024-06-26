@@ -48,13 +48,12 @@
 @media screen and (max-width: 900px){
 
     .nav-btn{
-        font-size: .9rem;
-         
+        font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 400px){
-    .navbar{
-        padding: .4rem;
+    .nav-btn{
+        font-size: 3.7vw;
     }
 }
