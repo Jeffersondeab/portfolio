@@ -1,18 +1,26 @@
- 
+import React from 'react'; // Assuming you're using React
 
-const jsontest = (props) =>{
-    return `
-        <p class="li" data-teste="${props.comandone}"></p>
-    `
-}
+const JsonItem = ({ comandone }) => {
+  return (
+    <p className="li" data-teste={comandone}>
+      OI - {comandone}
+    </p>
+  );
+};
 
- 
- 
+const App = () => {
+  const jsonData = [
+    { comandone: 'teste 01' },
+    { comandone: 'teste 02' },
+  ];
 
-function init(){
-    jsontest
-}
+  return (
+    <div>
+      {jsonData.map((item) => (
+        <JsonItem key={item.comandone} comandone={item.comandone} />
+      ))}
+    </div>
+  );
+};
 
-export default{
-    init
-} 
+export default App;
