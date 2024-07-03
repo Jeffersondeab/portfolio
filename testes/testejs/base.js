@@ -1,8 +1,8 @@
 import teste from '../testejs/teste.js';
-import jsonteste from './jsonteste.js';
+import jsontest from './jsontest.js'
 
 
+jsontest.init()
 
 
-jsonteste.init()
 teste.init() 
