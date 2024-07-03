@@ -1,7 +1,10 @@
 const obj = [
     {
-    comandone: "teste 01",
+    comando: "teste 01",
     },
+    {
+    comando:"teste 02"
+    }
 ]
 
 const testejson = document.querySelector('.testejson')
@@ -15,12 +18,14 @@ const jsonData = JSON.stringify(obj)
 const objDt = JSON.parse(jsonData)
 
 
+
+
 testejson.textContent = JSON.stringify(objDt) 
 
 
+testejson.textContent = objDt.comando
+
 console.log(objDt)
-
-
 
 
 
