@@ -1,38 +1,47 @@
-const obj = [
-    {
-    comando: "teste 01",
-    },
-    {
-    comando:"teste 02"
+ 
+fetch("teste.json")
+
+ .then(function(response){
+    return response.json();
+
+ })
+
+
+
+
+
+.then(function(products){
+    let placeholder = document.querySelector(".testejson")
+
+    let out = ""
+
+    for(let product of products){  
+        out += `
+            <p>${product.comando}</p>
+        `
     }
-]
-
-const testejson = document.querySelector('.testejson')
+})
 
 
 
 
-const jsonData = JSON.stringify(obj)
-
-
-const objDt = JSON.parse(jsonData)
 
 
 
 
-testejson.textContent = JSON.stringify(objDt) 
 
 
-testejson.textContent = objDt.comando
 
-console.log(objDt)
+
+
+
 
 
 
 
 
 function init (){
-    objDt
+    
 }
 
 init()
