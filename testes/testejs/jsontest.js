@@ -1,34 +1,23 @@
- 
-fetch("teste.json")
 
- .then(function(response){
-    return response.json();
+const teste = document.querySelector('.jsontest')
 
- })
-
-
-
+fetch('teste.json').then((Response) => {
+    Response.json().then((dados) => {
+        dados.coman.map((comando) =>{ 
+             
+            teste.innerHTML += `<p>${comando.comando}</p>`
 
 
-.then(function(products){
-    let placeholder = document.querySelector(".testejson")
-
-    let out = ""
-
-    for(let product of products){  
-        out += `
-            <p>${product.comando}</p>
-        `
-    }
+            console.log(comando)
+        })
+    })
 })
 
 
 
 
-
-
 function init (){
-    
+    teste
 }
 
 init()
