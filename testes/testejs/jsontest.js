@@ -27,19 +27,6 @@ fetch("teste.json")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 function init (){
     
 }
