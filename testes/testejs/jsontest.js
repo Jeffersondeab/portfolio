@@ -1,14 +1,13 @@
 
 const teste = document.querySelector('.jsontest')
 
-fetch('teste.json').then((Response) => {
+fetch("teste.json").then((Response) => {
     Response.json().then((dados) => {
-        dados.coman.map((comando) =>{ 
+        dados.usuarios.map((usuario) => {
              
-            teste.innerHTML += `<p>${comando.comando}</p>`
+            /* teste.innerHTML += `<p>${comando.comando}</p>`*/
 
-
-            console.log(comando)
+            console.log(usuario);
         })
     })
 })
