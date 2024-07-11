@@ -3,7 +3,7 @@ const teste = document.querySelector('.jsontest')
 
 fetch("teste.json").then((Response) => {
     Response.json().then((dados) => {
-        dados.usuarios.map((usuario) => {
+        dados.usuarios.map((usuario)=>{
              
             /* teste.innerHTML += `<p>${comando.comando}</p>`*/
 
