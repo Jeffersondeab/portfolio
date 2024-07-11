@@ -28,7 +28,7 @@ fetch("teste.json").then((Response) => {
     Response.json().then((dados) => {
         dados.usuarios.map((usuario)=>{
              
-            /* teste.innerHTML += `<p>${comando.comando}</p>`*/
+             teste.innerHTML += `<p>${comando.comando}</p>`
 
             console.log(usuario);
         })
