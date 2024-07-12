@@ -1,6 +1,9 @@
 
 const teste = document.querySelector('.jsontest');
 
+usuarios = []
+
+
 fetch("teste.json")
   .then((response) => response.json())
   .then((dados) => {
