@@ -1,7 +1,12 @@
-
 [
     {
-        "nome": "Teste",
-        "imagem": "./imagens/projects/disney+1.png"
-    }
+        "nome": "teste 01",
+        "imagem": "assets/imagens/projects/disney+2.png"
+    },
+    {
+        "nome": "teste 02",
+        "imagem": "assets/imagens/projects/bg.jpg"
+    }  
 ]
+
+
