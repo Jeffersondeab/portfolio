@@ -1,48 +1,38 @@
 
-const teste = document.querySelector('.jsontest');
 
-usuarios = []
+function carregar(){
+  fetch('teste.json')
+  .then(response => response.json())
+  .then(jogos =>{
+     
+    const container = document.querySelector('#com')
 
+    jogos.map(jogo => {
+      const card = document.createElement("div")
 
-fetch("teste.json")
-  .then((response) => response.json())
-  .then((dados) => {
-    dados.usuarios.map((usuario) => {
-      // Crie elementos HTML dinâmicos ou realize cálculos aqui
-      const nome = usuario.nome;
-      const paragrafo = document.createElement('p');
-      paragrafo.textContent = `Nome: ${nome}`;
-      teste.appendChild(paragrafo);
-    });
-  });
+      card.classList.add("card")
 
+      const img = document.createElement("img")
 
+      img.src = jogo.imagem
+      img.alt = jogo.nome
 
+      const titulo = document.createElement("h3")
+      titulo.textContent = jogo.nome;
+      
+      card.appendChild(img)
+      card.appendChild(titulo)
 
-
-
-
-
-
-/* 
-const teste = document.querySelector('.jsontest')
-
-fetch("teste.json").then((Response) => {
-    Response.json().then((dados) => {
-        dados.usuarios.map((usuario)=>{
-             
-             teste.innerHTML += `<p>${comando.comando}</p>`
-
-            console.log(usuario);
-        })
+      container.appendChild(card)
     })
-})
+  })
+}
 
-
- */
+carregar()
+ 
 
 function init (){
-    teste
+    carregar
 }
 
 init()

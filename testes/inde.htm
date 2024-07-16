@@ -53,6 +53,14 @@
 
 
 
+    <div class="container" id="com">
+        <div class="card">
+            <h2></h2>
+        </div>
+    </div>
+
+
+
     <div class="base">
         <div class="base_teste" id="teste01">
             <div class="jsontest"></div>
@@ -62,30 +70,10 @@
         <div class="base_teste" id="teste03">teste 03</div>
     </div>
 
- <!--    <script type="module" src="testejs/base.js">
+    
 
-        
-    </script> -->
-
-    <script>
-
-        
-const teste = document.querySelector('.jsontest')
-
-fetch('teste.json').then((Response) => {
-    Response.json().then((dados) => {
-        dados.coman.map((comando) =>{ 
-             
-            teste.innerHTML += `<p>${comando.comando}</p>`
-
-
-            console.log(comando)
-        })
-    })
-})
-
-    </script>
-
+    <script type="module" src="/testes/testejs/base.js"></script>
+  
 
 </body>
 </html>
