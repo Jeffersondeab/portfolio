@@ -1,12 +1,21 @@
 [
     {
-        "nome": "teste 01",
-        "imagem": "assets/imagens/projects/disney+2.png"
+        "nome": "Disney",
+        "imagem": "assets/imagens/projects/icons8-disney-plus-250.png",
+        "url": "https://jeffersondeab.github.io/DISNEY_PLUS-CLONE/"
     },
     {
-        "nome": "teste 02",
-        "imagem": "assets/imagens/projects/bg.jpg"
-    }  
+        "nome": "Disney",
+        "imagem": "assets/imagens/projects/icons8-disney-plus-250.png"
+    },
+    {
+        "nome": "Disney",
+        "imagem": "assets/imagens/projects/icons8-disney-plus-250.png"
+    },
+    {
+        "nome": "Disney",
+        "imagem": "assets/imagens/projects/icons8-disney-plus-250.png"
+    }
 ]
 
 
