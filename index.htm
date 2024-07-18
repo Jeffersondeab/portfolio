@@ -22,7 +22,7 @@
 
                         <button href="#" class="nav-btn" data-center="projetos">Projetos</button>
 
-                       <button href="#" class="nav-btn" data-center="contato">Contato</button>
+                       <button href="#" class="nav-btn" data-center="contact-section">Contato</button>
                 </div>
         </nav>
     </header>
@@ -92,8 +92,21 @@
                 <div class= "project-container" id="my-project"></div>
         </section>
 
-        <section class="contact section" id="contato">
+        <section class="contact section" id="contact-section">
            <h2 class="heading">Contato</h2> 
+
+            
+          <form action=" " method="POST" data-form>
+                <label for="nome">Nome</label> 
+                <input type="text" name="nome" id="nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+                <button type="submit" data-button>Enviar</button>
+
+           </form> 
+
         </section>
 
     </main>
