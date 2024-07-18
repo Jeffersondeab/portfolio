@@ -1,4 +1,4 @@
-class formSubmit{
+class FormSubmit{
     constructor(settings){
         this.settings = settings;
         this.form = document.querySelector(settings.form)
@@ -17,6 +17,10 @@ class formSubmit{
         this.form.innerHTMl = this.settings.error;
     }
 
+    sendForm(){
+        fetch( this.url, )
+    }
+
     init(){
         if(this.form) this.formButton.addEventListener('click', () => this.displaySucess);
         return this;
@@ -27,5 +31,17 @@ const formSubmit = new FormSubmit({
     form: "[data-form]",
     button: "[data-button]",
     sucess: "<h1 class='sucess'> Mensagem enviada</h1>",
-    sucess: "<h1 class='error'> Mensagem de erro</h1>",
+    error: "<h1 class='error'> Mensagem de erro</h1>",
 });
+
+
+function init (){
+    formSubmit
+}
+
+init()
+
+
+ export default{
+    init
+ }
