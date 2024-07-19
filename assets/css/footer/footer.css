@@ -1,6 +1,20 @@
 .footer-content{
     width: 100%;
-    height: 100vh;
+    padding: 4rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.wraprow{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.footer-content a{
+    color: white;
+    text-decoration: none;
 }
