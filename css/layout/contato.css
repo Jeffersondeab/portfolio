@@ -1,24 +1,27 @@
-.contact{
-    min-width:80vw;
-    min-height: 100vh;
+.forms{
+    width: 50vw;
+    background-color: white;
+    
 }
 
-form {
+
+
+/* 
+  form {
     width: 100%;
     max-width: 30rem;
-    margin: auto;
   }
   
   label,
   input,
   textarea,
-  .btn-int {
+  button {
     display: block;
   }
   
   input,
   textarea,
-  .btn-int {
+  button {
     width: 100%;
     font: inherit;
     padding: 1.25rem;
@@ -54,7 +57,7 @@ form {
     resize: vertical;
   }
   
-  .btn-int {
+  button {
     border: none;
     border-radius: 99px;
     color: white;
@@ -63,13 +66,13 @@ form {
     transition: 0.3s;
   }
   
-  .btn-int:hover,
-  .btn-int:focus {
+  button:hover,
+  button:focus {
     outline: none;
     background: #1c70d3;
   }
   
-  .btn-int:disabled {
+  button:disabled {
     cursor: not-allowed;
     background: #555b69;
   }
@@ -85,4 +88,4 @@ form {
   
   .error {
     color: tomato;
-  }
+  } */

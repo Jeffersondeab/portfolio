@@ -9,7 +9,7 @@ import contato from "./modules/contato.js"
 
 navegation.init()
 project.init()
-contato.inti()
+contato.init()
 
 
 /* fontes.init()  */
