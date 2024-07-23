@@ -10,7 +10,16 @@
         "url": "https://jeffersondeab.github.io/Animation/maples/index.htm"
     },
     {
-        "nome": "animação sistema solar ",
+        "nome": "Animação sistema solar ",
+        "imagem": "assets/imagens/projects/icons8-saturn-planet-96.png",
+        "url": "https://jeffersondeab.github.io/Animation/Solar-System/index.htm"
+    },
+    {
+        "nome": "Disney",
+        "imagem": "assets/imagens/projects/icons8-disney-plus-250.png"
+    },
+    {
+        "nome": "Animação sistema solar ",
         "imagem": "assets/imagens/projects/icons8-saturn-planet-96.png",
         "url": "https://jeffersondeab.github.io/Animation/Solar-System/index.htm"
     },

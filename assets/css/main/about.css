@@ -1,6 +1,6 @@
 .about{
     background-color: rgb(0, 0, 0);
-    min-width:90vw;
+    min-width:80vw;
     min-height: 100vh;
     display: flex;
     align-items: center;    
@@ -11,9 +11,10 @@
 
 
 .about-container{
-    max-width: 92vw;
+    max-width: 80vw;
     border-radius:1rem;
     margin-top: 5rem;   
+     
 }
 
 .about-container__img img{      
@@ -29,7 +30,7 @@
     opacity: 0.7;
     color: white;
     font-size: 1rem;
-    width: 92vw;
+    width: 80vw;
     font-weight: 500;
     line-height: 30px;
     text-align: justify;
