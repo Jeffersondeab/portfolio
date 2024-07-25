@@ -16,14 +16,6 @@
     }
 
 
-
-    .base_teste{
-        width: 100%;
-        height: 100vh;
-        text-align: center;
-        font-size: 5rem;   
-    }
-
     .base_teste:nth-child(odd){
         background: grey;
     }
@@ -39,6 +31,25 @@
     .li{
         background: green;
         padding: 5rem;
+    }
+
+
+    .base_teste{
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        font-size: 5rem;   
+        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .toggle1{
+        width: 20rem;
+        height: 10rem;
+        background-color: black;
     }
     
 </style>
@@ -64,6 +75,10 @@
     <div class="base">
         <div class="base_teste" id="teste01">
             <div class="jsontest"></div>
+
+            <div class="toggle1"></div>
+            <div class="toggle1"></div>
+
         </div>
        
         <div class="base_teste" id="teste02">teste 02</div>
