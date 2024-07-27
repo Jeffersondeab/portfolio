@@ -1,10 +1,10 @@
-const toggle = document.querySelector('toggle1')
+
+const tog = document.querySelector('toggle1')
 
 
 
 
 
-toggle.addEventListener('click', ()=> {
-
-    alert('ok')
-}
+tog.addEventListener('click', () =>{
+    
+})

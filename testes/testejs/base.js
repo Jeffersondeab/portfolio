@@ -1,7 +1,7 @@
 import teste from '../testejs/teste.js';
 import jsontest from './jsontest.js'
 
-import toggle from './toggle.js'
+import toggle from '../testejs/teste.js'
 
 
 toggle.init()
