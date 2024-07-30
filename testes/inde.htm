@@ -41,22 +41,36 @@
         font-size: 5rem;   
         grid-template-columns: repeat(2, 1fr);
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 1rem;
     }
 
-    .toggle1{
-        width: 20rem;
+    .container{
+        display: flex;
+ 
+        width: 60vw;
         height: 10rem;
-        background-color: black;
     }
 
-    .card{
-        width: 1rem;
-        height: 1rem;
+    .card img{
+    width: 95%;
+    height: 80%;
+    object-fit: cover;
+    margin: auto;
+    justify-content: center;
+    
+}
 
-    }
+.card span{
+    font-size: 1rem; 
+    gap: 0rem; 
+}
+
+ 
+
+ 
 
 </style>
 
@@ -71,26 +85,25 @@
     
 
     <div class="base">
+
+
+         
+ 
         <div class="base_teste" id="teste01">
-             
 
-            <div class="toggle1">
+            <button class="front">front</button>
+            <button class="back">back</button>
+
+            <div href="#" class="toggle1">
                 <div class="container" id="com">
-                    <div class="card">
-                        <h2 class="testes"></h2>
-                    </div>
+
                 </div>
             </div>
-            <div class="toggle1">
-                <div class="container" id="com">
-                    <div class="card">
-                        <h2 class="testes"></h2>
-                    </div>
-                </div>
-            </div>
-
         </div>
        
+
+
+
         <div class="base_teste" id="teste02">teste 02</div>
         <div class="base_teste" id="teste03">teste 03</div>
     </div>
