@@ -1,10 +1,10 @@
 import teste from '../testejs/teste.js';
 import jsontest from './jsontest.js'
 
-import toggle from '../testejs/teste.js'
+import tst from '../testejs/tst.js';
 
 
-toggle.init()
+tst.init()
 
 jsontest.init()
 
