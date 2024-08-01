@@ -1,17 +1,32 @@
-[
+
+
+dadosCorrigidos = [
     {
         "nome": "teste 01",
         "imagem": "/testes/disney+2.png",
         "url": "https://www.linkedin.com/in/jefferson-barcellos/"
     },
     {
-        "nome": "teste 02",
-        "imagem": "/testes/disney+2.png"
-    },
-    {
-        "nome": "teste 03",
-        "imagem": "/testes/disney+2.png"
-    }   
-]
+        "nome": "teste 01",
+        "imagem": "/testes/disney+2.png",
+        "url": "https://www.linkedin.com/in/jefferson-barcellos/"
+    }
+];
 
+
+
+
+
+
+
+/* [
+    
+    {
+        "nome": "teste 01",
+        "imagem": "/testes/disney+2.png",
+        "url": "https://www.linkedin.com/in/jefferson-barcellos/"
+    }
+]
+ */
+ 
 

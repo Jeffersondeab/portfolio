@@ -6,8 +6,13 @@ const front = document.querySelector('.front')
 
 
 function test(){
+
+            
+
+
+
     front.addEventListener('click', () =>{
-        alert('teste')
+        
     })
 }
 
