@@ -5,7 +5,7 @@ function carregar(){
   .then(response => response.json())
   .then(jogos =>{
      
-    const container = document.querySelector('#com')
+    const container = document.querySelector('#frontBase')
 
     jogos.map(jogo => {
       const card = document.createElement("a")

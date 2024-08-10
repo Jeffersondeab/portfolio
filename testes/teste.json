@@ -6,8 +6,8 @@
         "url": "https://www.linkedin.com/in/jefferson-barcellos/"
     },
     {
-        "nome": "teste 02",
-        "imagem": "/testes/disney+2.png",
+        "backtxt": "teste 02",
+        "backImg": "/testes/disney+2.png",
         "url": "https://www.linkedin.com/in/jefferson-barcellos/"
     }
 ]
