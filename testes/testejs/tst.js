@@ -10,7 +10,7 @@ function test(){
     jogos.map(jogo => {
 
 
-/*         front.addEventListener('click', () =>{ */
+/*         front.addEventListener('click', () =>{ */    
             const card = document.createElement("a")
 
             card.classList.add("card")
