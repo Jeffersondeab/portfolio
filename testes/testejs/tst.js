@@ -49,7 +49,11 @@ function test() {
 // ... (resto do seu código)
 
 
-test()
+
+
+
+
+/* test()
 
 
 function init (){
@@ -58,4 +62,4 @@ function init (){
 
 export default{
     init
- }
+ } */
