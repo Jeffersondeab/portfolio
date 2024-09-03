@@ -1,59 +1,25 @@
-
-
-
-const frontButton = document.querySelector('front')
-const backButton = document.querySelector('back')
-
-
-
-
-
-
-frontButton.addEventListener('click', () => {
-
-  
-    
-
-function carregar(){
-  fetch('teste.json')
+fetch('seu_arquivo.json')
   .then(response => response.json())
-  .then(jogos =>{
-     
-    const container = document.querySelector('#frontBase')
+  .then(data => {
+    const frontContainer = document.getElementById('frontContainer');
+    const backContainer = document.getElementById('backContainer');
 
-    jogos.map(jogo => {
-      const card = document.createElement("a")
+    data.front.forEach(item => {
+      const card = document.createElement('div');
+      card.classList.add('card'); // Adicione uma classe para estilizar
+      card.innerHTML = `
+        <img src="${item.imagem}" alt="${item.nome}">
+        <h3>${item.nome}</h3>
+        <a href="${item.url}">Saiba mais</a>
+      `;
+      frontContainer.appendChild(card);
+    });
 
-      card.classList.add("card")
-
-      const img = document.createElement("img")
-
-      img.src = jogo.imagem
-      img.alt = jogo.nome
-
-      const titulo = document.createElement("span")
-      titulo.textContent = jogo.nome;
-      
-      card.appendChild(img)
-      card.appendChild(titulo)
-
-      card.href = "" + jogo.url
-
-      container.appendChild(card)
-    })
+    // Faça algo similar para os dados do "back"
   })
-}
-
-
-  
-  if(.style.display === 'block'){
-    
-  }
-
-})
-
-
-
+  .catch(error => {
+    console.error('Erro ao buscar dados:', error);
+  });
  
 carregar()
 
