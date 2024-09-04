@@ -1,31 +1,22 @@
-fetch('seu_arquivo.json')
-  .then(response => response.json())
-  .then(data => {
-    const frontContainer = document.getElementById('frontContainer');
-    const backContainer = document.getElementById('backContainer');
 
-    data.front.forEach(item => {
-      const card = document.createElement('div');
-      card.classList.add('card'); // Adicione uma classe para estilizar
-      card.innerHTML = `
-        <img src="${item.imagem}" alt="${item.nome}">
-        <h3>${item.nome}</h3>
-        <a href="${item.url}">Saiba mais</a>
-      `;
-      frontContainer.appendChild(card);
-    });
+const teste = document.querySelector('.front')
 
-    // Faça algo similar para os dados do "back"
-  })
-  .catch(error => {
-    console.error('Erro ao buscar dados:', error);
-  });
+const txt = document.querySelector('.txt')
+
+teste.addEventListener('click', () => {
+
+
+  document.querySelector('.active')?.classList.remove('active');
+  teste.classList.add('active')
+})
+
+
+
+
  
-carregar()
-
   
   function init (){
-
+    teste
   }
   
   init()
