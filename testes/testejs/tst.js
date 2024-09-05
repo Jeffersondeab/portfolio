@@ -7,13 +7,13 @@ teste.addEventListener('click', () => {
 
 
   document.querySelector('.active')?.classList.remove('active');
-  teste.classList.add('active')
+  txt.classList.add('active')
+
+  
+
 })
 
 
-
-
- 
   
   function init (){
     teste
