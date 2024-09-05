@@ -1,19 +1,25 @@
-{
-    "front":[
-        {
-            "nome": "teste 01",
-            "imagem": "/testes/disney+2.png",
-            "url": "https://www.linkedin.com/in/jefferson-barcellos/"
-        }
-    ],
-    "back":[
-        {
-            "nome": "teste 01",
-            "imagem": "/testes/disney+2.png",
-            "url": "https://www.linkedin.com/in/jefferson-barcellos/"
-        }
-    ]
 
-}
+
+[
+    
+    {
+        "nome": "teste 01",
+        "imagem": "/testes/disney+2.png",
+        "url": "https://www.linkedin.com/in/jefferson-barcellos/"
+    },
+    {
+        "nome": "teste 01",
+        "imagem": "/testes/disney+2.png",
+        "url": "https://www.linkedin.com/in/jefferson-barcellos/"
+    },
+    {
+        "nome": "teste 01",
+        "imagem": "/testes/disney+2.png",
+        "url": "https://www.linkedin.com/in/jefferson-barcellos/"
+    } 
+ 
+]
+
+
 
  
