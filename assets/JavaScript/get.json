@@ -1,32 +1,35 @@
-[
-    {
-        "nome": "Disney",
-        "imagem": "assets/imagens/projects/icons8-disney-plus-250.png",
-        "url": "https://jeffersondeab.github.io/DISNEY_PLUS-CLONE/"
-    },
-    {
-        "nome": "Animação Maple",
-        "imagem": "assets/imagens/projects/icons8-maple-80.png",
-        "url": "https://jeffersondeab.github.io/Animation/maples/index.htm"
-    },
-    {
-        "nome": "Animação sistema solar ",
-        "imagem": "assets/imagens/projects/icons8-saturn-planet-96.png",
-        "url": "https://jeffersondeab.github.io/Animation/Solar-System/index.htm"
-    },
-    {
-        "nome": "Disney",
-        "imagem": "assets/imagens/projects/icons8-disney-plus-250.png"
-    },
-    {
-        "nome": "Animação sistema solar ",
-        "imagem": "assets/imagens/projects/icons8-saturn-planet-96.png",
-        "url": "https://jeffersondeab.github.io/Animation/Solar-System/index.htm"
-    },
-    {
-        "nome": "Disney",
-        "imagem": "assets/imagens/projects/icons8-disney-plus-250.png"
-    }
-]
+{ 
+
+    "front":[
+        {
+            "nome": "Disney",
+            "imagem": "assets/imagens/projects/icons8-disney-plus-250.png",
+            "url": "https://jeffersondeab.github.io/DISNEY_PLUS-CLONE/"
+        },
+        {
+            "nome": "Animação Maple",
+            "imagem": "assets/imagens/projects/icons8-maple-80.png",
+            "url": "https://jeffersondeab.github.io/Animation/maples/index.htm"
+        },
+        {
+            "nome": "Animação sistema solar ",
+            "imagem": "assets/imagens/projects/icons8-saturn-planet-96.png",
+            "url": "https://jeffersondeab.github.io/Animation/Solar-System/index.htm"
+        }
+    ],
+
+    "back":[
+        {
+            "nome": "Animação sistema solar ",
+            "imagem": "assets/imagens/projects/icons8-saturn-planet-96.png",
+            "url": "https://jeffersondeab.github.io/Animation/Solar-System/index.htm"
+        }
+    ],
+
+    "powerBI":[
+
+    ]
+ 
+}
 
 

@@ -1,40 +1,85 @@
 
+const frontEnd = document.querySelector('#frontend')
+const backEnd = document.querySelector('#backEnd')
+
+
 
 function carregar(){
     fetch('assets/JavaScript/get.json')
     .then(response => response.json())
-    .then(jogos =>{
+    .then(data =>{
        
-      const container = document.querySelector('#my-project')
-  
-      jogos.map(jogo => {
+
+      const frontProject = document.querySelector('#my-front__projects')
+      const backProject = document.querySelector('#my-back__projects')
+
+      frontEnd.addEventListener('click', () =>{
+          frontProject.classList.toggle('actives')
+      })
+
+      backEnd.addEventListener('click', () =>{
+          backProject.classList.toggle('actives')
+      })
+
+       
+      const fronts = data.front
+      const backs = data.back
+
+
+      fronts.map(dataFront => {
         const card = document.createElement("a")
   
         card.classList.add("card")
   
         const img = document.createElement("img")
   
-        img.src = jogo.imagem
-        img.alt = jogo.nome
+        img.src = dataFront.imagem
+        img.alt = dataFront.nome
 
   
         const titulo = document.createElement("h3")
-        titulo.textContent = jogo.nome;
+        titulo.textContent = dataFront.nome;
         
         card.appendChild(img)
         card.appendChild(titulo)
 
-        card.href = "" + jogo.url;
+        card.href = "" + dataFront.url;
   
-        container.appendChild(card)
+        frontProject.appendChild(card)
+      })
+
+
+      backs.map(dataBack => {
+        const card = document.createElement("a")
+  
+        card.classList.add("card")
+  
+        const img = document.createElement("img")
+  
+        img.src = dataBack.imagem
+        img.alt = dataBack.nome
+
+  
+        const titulo = document.createElement("h3")
+        titulo.textContent = dataBack.nome;
+        
+        card.appendChild(img)
+        card.appendChild(titulo)
+
+        card.href = "" + dataBack.url;
+  
+        backProject.appendChild(card)
       })
     })
   }
    
+
+
 carregar()
   
   function init (){
-      carregar
+    frontEnd
+    backEnd
   }
   
   init()
