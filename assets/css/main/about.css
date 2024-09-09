@@ -20,7 +20,7 @@
 .about-container__img img{      
     margin-right: .5rem;
     float: left;
-    max-width: 50vw;
+    width: 30vw;
     border-radius: 1rem;
 }
 
