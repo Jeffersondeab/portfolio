@@ -3,10 +3,43 @@
     min-height: 100vh;
 }
 
+
+
+.contato-list{
+  padding: 3rem 0rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content:  space-around;
+  font-size: 1.5rem;
+  width: 20vw;
+  margin:auto;
+}
+
+
+.contato-item{
+  list-style: none;
+   
+}
+
+.contato-link{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contato-link:hover{
+  color: rgba(255, 255, 255, 0.671);
+  text-decoration: underline;
+}
+
+
+
 form {
     max-width: 30rem;
     margin: auto;
   }
+
+
   
   label,
   input,
@@ -91,5 +124,9 @@ form {
     form {
         max-width: 80vw;
         margin: auto;
+      }
+
+      .contato-list{
+        width: 35vw;
       }
   }
