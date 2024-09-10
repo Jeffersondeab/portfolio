@@ -15,6 +15,11 @@
             "nome": "Animação sistema solar ",
             "imagem": "assets/imagens/projects/icons8-saturn-planet-96.png",
             "url": "https://jeffersondeab.github.io/Animation/Solar-System/index.htm"
+        },
+        {
+            "nome": "Caixa eletrônico",
+            "imagem": "assets/imagens/projects/icons8-pos-terminal-100.png",
+            "url": "https://jeffersondeab.github.io/Caixa_Eletronico/"
         }
     ],
 

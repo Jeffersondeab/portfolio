@@ -9,16 +9,16 @@
   padding: 3rem 0rem 5rem;
   display: flex;
   align-items: center;
-  justify-content:  space-around;
   font-size: 1.5rem;
-  width: 20vw;
+  width: 15vw;
   margin:auto;
+  justify-content: center;
+  gap: 1rem;
 }
 
 
 .contato-item{
   list-style: none;
-   
 }
 
 .contato-link{
@@ -124,9 +124,5 @@ form {
     form {
         max-width: 80vw;
         margin: auto;
-      }
-
-      .contato-list{
-        width: 35vw;
       }
   }
