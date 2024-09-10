@@ -14,7 +14,6 @@
     max-width: 80vw;
     border-radius:1rem;
     margin-top: 5rem;   
-     
 }
 
 .about-container__img img{      
@@ -38,6 +37,14 @@
 }
 
 
+@media screen and (max-width: 800px){
+    .about-container__img img{
+        width: 50vw; 
+    }  
+}
+
+  
+
 
 
 @media screen and (max-width: 300px) {
@@ -58,11 +65,9 @@
         align-items: center
     }
 
-    .about-text{
-         
-    }
 
     .about-container__img img{
-        float: none;  
+        float: none; 
+        width: 70vw; 
     }   
 }
