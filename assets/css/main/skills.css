@@ -1,6 +1,6 @@
 
 .skills{
-   width:80vw;
+    width:80vw;
     min-height: 100vh;
     margin: auto;
 }
@@ -22,7 +22,7 @@
 .skill-card{
     position: relative;
     border: 1px solid rgb(255, 255, 255);
-    padding: 0.5rem;   
+    padding: 0.5rem;       
 }
 
 
@@ -38,7 +38,7 @@
     color: #fff;
     font-size: 30px;
     font-weight:300;
-    text-align: center;
+     
     text-transform: capitalize;
     margin: 30px  20px;
 }
@@ -56,7 +56,8 @@
 .skill-level{
     position: absolute;
     top: 15%;
-    right: 0;
+    right: 2%;
+    left: 0.5;
     width: 150px;
     height: 150px;
     display: flex;
