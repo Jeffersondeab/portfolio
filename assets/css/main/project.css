@@ -34,13 +34,11 @@
 
  
 
-
 .card{
     display: flex;
     flex-direction: column;
     
 }
-
 
 
 
@@ -59,6 +57,8 @@
     color: white;
     text-align: center;
 } 
+
+
 
 .actives{
     display: none;
