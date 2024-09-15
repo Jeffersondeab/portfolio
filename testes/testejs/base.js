@@ -1,14 +1,12 @@
 import teste from '../testejs/teste.js';
-/* import jsontest from './jsontest.js' */
-
 import tst from '../testejs/tst.js';
 
+import novoTest from './testeFor.js';
 
+
+
+novoTest.init()
 tst.init()
-
-/* jsontest.init() */
-
-
 teste.init() 
 
 
