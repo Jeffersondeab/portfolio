@@ -3,30 +3,26 @@
 
 const novo = document.querySelector('.testfor')
 
-const t = document.querySelector('.h')
 
 novo.addEventListener('click', () =>{
     
 })
 
 
-function texto(){
-    
-    var tex = document.createElement('p')
-
-    tex.innerHTML = 'oi'
+/* for (let i = 0; i < 10; i++) {
+    const option = document.createElement('option');
+    option.textContent = `Opção ${i+1}`;
+    novo.appendChild(option);
 }
 
-texto()
+ */
 
 
+for(let i=0; i < 10; i++){
 
-
-
-for(var i=0; i < 10; i++){
-
-    console.log(t)
-
+    const novo = document.querySelector('.testfor') 
+    novo.textContent = `${i}`
+    
 }
 
 
