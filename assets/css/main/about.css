@@ -5,19 +5,18 @@
     display: flex;
     align-items: center;    
     justify-content: center;
-    margin: auto;  
+    margin: auto;
+
 }
 
 
 
 .about-container{
     max-width: 80vw;
-    border-radius:1rem;
     margin-top: 5rem; 
-     
 }
 
-.about-container__img img{      
+.about-container__img img{     
     margin-right: .5rem;
     float: left;
     width: 30vw;
@@ -45,8 +44,6 @@
 }
 
   
-
-
 
 @media screen and (max-width: 300px) {
 
