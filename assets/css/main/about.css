@@ -12,8 +12,11 @@
 
 
 .about-container{
-    max-width: 80vw;
+    display: flex;
+    gap: 1.5rem;
+    width:80vw;
     margin-top: 5rem; 
+
 }
 
 .about-container__img img{     
@@ -29,23 +32,15 @@
     opacity: 0.7;
     color: white;
     font-size: 1rem;
-    width: 80vw;
     font-weight: 500;
     line-height: 30px;
     text-align: justify;
     hyphens: auto;
 }
 
+ 
 
-@media screen and (max-width: 800px){
-    .about-container__img img{
-        width: 50vw; 
-    }  
-}
-
-  
-
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 800px) {
 
     .about{
         margin-top: 5em;
