@@ -16,22 +16,4 @@ novo.addEventListener('click', () =>{
 }
 
  */
-
-
-for(let i=0; i < 10; i++){
-
-    const novo = document.querySelector('.testfor') 
-    novo.textContent = `${i}`
-
-}
-
-
-
-
-function init(){
-
-}
-
-export default{
-    init
-}
+ 
