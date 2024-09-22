@@ -1,8 +1,7 @@
 
 .skills{
-    width:80vw;
+    min-width:80vw;
     min-height: 100vh;
-    margin: auto;
 }
 
 
