@@ -1,52 +1,22 @@
  
-#nav-list{
-    display: flex;
-    list-style: none;
-    gap: 2rem;  
-    margin-right: 10rem;
-    transition: .3s;
-}     
 
-#nav-list:hover{ 
+.nav-list:hover{ 
     background: #23232e;
 }
  
-
-.nav-btn{
-    padding: .4rem;
-    border-radius: .5rem;
-}
-
 
 #mobile-menu{
     display: none;
 }
  
-
-main{
-    margin-top: 20vh;
-}
-
  
-
 
 @media screen and (max-width:600px) {
 
-
-    header{
-        top: 0%;
-        left: 0%;
-        position: fixed;
-    }
-
-    #logo h2{
-        margin-left: 2rem;
-        z-index: 1;
-    }
-
+    
 
     #wrapper.active{
-        background-color: rgba(0, 0, 0, 0.24);
+        background-color: rgba(219, 12, 12, 0);
         width: 100%;
         height: 100%;
         top: 0%;
@@ -54,32 +24,31 @@ main{
         position: fixed;
     } 
 
-    #nav-list{
+    .nav-list{
         display: none;  
         list-style: none;  
         animation: slideMainContent 1s;
         margin-right: 0;
     }     
 
-    #nav-list.active {
-        background: #23232e;
+    .nav-list.active {
+        background: #23232e7e;
         display: block;
-        line-height: 3rem;
-        top: 3.78rem;
+        top: 3rem;
         width: 70%;
-        height: 90vh;
+        min-height: 95vh;
         position: fixed;
         right: 0%;
     }
 
-    .nav-btn{
+     .nav-btn{
         display: flex;
         align-items: center;
         margin: auto;
         width: 7rem;
     }
 
-    .nav-list__link{
+     #mobile-menu{
         margin: auto;
     }
 
@@ -104,7 +73,8 @@ main{
         cursor: pointer;
         background: none;
         border:none;
-        margin-right: 5rem;
+        margin-right: 3.8rem;
+        margin-top: 2rem;
     }
 
     #mobile-menu__btn{

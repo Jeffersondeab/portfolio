@@ -1,5 +1,5 @@
 const wrapper = document.querySelector('#wrapper')
-const nave = document.querySelector('#nav-list')
+const nave = document.querySelector('.nav-list')
 const hamburgue = document.querySelector('#mobile-menu')
 
 
@@ -14,3 +14,16 @@ wrapper.addEventListener('click', () =>{
     hamburgue.classList.toggle('active')
     nave.classList.toggle('active')
 })
+
+
+export default{
+    init
+}
+
+function init(){
+    hamburgue
+    wrapper
+}
+
+
+
