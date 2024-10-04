@@ -7,7 +7,7 @@
     align-items: center;
     z-index: 9;
     position: fixed;
-    background-color: rgb(61, 56, 56);
+    background: #23232e7e;
     padding: 1rem;
  
 }
@@ -17,13 +17,24 @@
 
 .nav-btn.active{
     color: rgb(93, 255, 147);;
+    display: flex;
     
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
 }
 
 
 .nav-list{
     list-style: none;
     display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+
 }
 
 .nav-btn{
