@@ -1,8 +1,48 @@
 .qualification{
     min-height: 100vh;
+    color: white;
+}
+ 
+
+
+.qualification-geral{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.qualification-mecanica{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 1px solid white;
 }
 
 
+.qualification-list{
+    border: 1px solid white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    line-height: 2rem;
+    width: 50%;
+}
+
+
+.qualification-title{
+    display: flex;
+    justify-content: center;
+}
+
+.qualification-item{
+    margin-left: 2rem;
+}
+
+
+.qualification-img img{
+    width: 20%;
+    height: 30%;
+}
 
 
 
