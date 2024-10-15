@@ -13,6 +13,7 @@
     margin: 100px auto;
 }
 
+
 .filter-btn{
     padding: 10px 20px;
     border-radius: 5px;
@@ -23,13 +24,13 @@
 }
 
 
-
 .project-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap:20px;
     width: 80vw;
     margin: auto;
+    font-size: 12px;
 }
 
  
@@ -37,9 +38,7 @@
 .card{
     display: flex;
     flex-direction: column;
-    
 }
-
 
 
 .card img{
@@ -51,13 +50,11 @@
 }
 
 
-
 .card h3{
     opacity: 0.7;
     color: white;
     text-align: center;
 } 
-
 
 
 .actives{
@@ -75,12 +72,8 @@
 
     .project-container {
         grid-template-columns: repeat(2, 1fr);
+        font-size: 10px;
     }
 }
 
-
-@media screen and (max-width: 500px){
-    .project-container{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
+ 
