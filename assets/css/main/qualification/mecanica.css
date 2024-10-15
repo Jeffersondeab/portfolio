@@ -1,0 +1,77 @@
+ 
+
+.mecanica{  
+    width: 80vw;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.mecanica-base{
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+
+.mecanica-list{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    line-height: 2rem;
+    width: 80vw;
+}
+
+
+.mecanica-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.mecanica-item{
+    margin-left: 2rem;
+
+}
+
+
+.mecanica-img img{
+    width: 40vw;
+    height: 60vh;
+    border-radius: 1rem;
+    
+}
+
+
+
+
+@media screen and (max-width: 900px){
+
+    .mecanica-base{
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+
+    .mecanica-item{
+        margin-left: 2rem;
+    }
+
+    .mecanica-title{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+        width: 90vw;
+    }
+
+    .mecanica-img img{
+        width: 80vw;
+        height: 40vh;
+        border-radius: 1rem;
+        
+    }
+
+}

@@ -1,10 +1,15 @@
 @import url('base.css');
+
 @import url('nav/nav.css');
 @import url('nav/navMobile.css');
+
 @import url('main/about.css');
-@import url('main/qualification.css');
+@import url('main/qualification/ads.css');
+@import url('main/qualification/mecanica.css');
+@import url('main/qualification/qualificationBase.css');
 @import url('main/skills.css');
 @import url('main/project.css');
 @import url('main/contact.css');
+
 @import url('footer/footer.css');
  

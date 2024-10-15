@@ -1,0 +1,14 @@
+.qualification{
+    min-height: 100vh;
+ 
+}
+ 
+
+
+.qualification-geral{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    opacity: 0.7;
+    color: white;
+}
