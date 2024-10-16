@@ -5,7 +5,9 @@
     display: none;
 }
  
- 
+#wrapper{
+    display: none;
+}
 
 @media screen and (max-width:600px) {
 
@@ -25,18 +27,16 @@
         list-style: none;  
         animation: slideMainContent 1s;
         margin-right: 0;
-        
     }     
 
     .nav-list.active {
         background: #23232e7e;
         display: block;
-        top: 3rem;
+        top: 4.5%;
         width: 70%;
         min-height: 95vh;
         position: fixed;
         right: 0%;
-        
     }
 
      .nav-btn{
@@ -48,11 +48,7 @@
         line-height: 3rem;
     }
 
-     #mobile-menu{
-        margin: auto;
-        display: flex;
-        align-items: center;
-    }
+ 
 
     .nav-btn:hover{
         border-radius: 5rem; 
@@ -73,11 +69,17 @@
 
 
     #mobile-menu{
-        display: block;
+        margin: auto;
+        display: flex;
+        align-items: center;
+ 
+        position: fixed;
         cursor: pointer;
         background: none;
         border:none;
-        margin-right: 3.8rem;
+        right: 15%;
+        top: 5%;
+        z-index: 1;
     }
 
     #mobile-menu__btn{

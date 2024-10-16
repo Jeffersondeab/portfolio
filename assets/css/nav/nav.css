@@ -16,12 +16,10 @@
 
 
 .nav-btn.active{
-    color: rgb(93, 255, 147);
     display: flex;
     justify-content: center;
     margin: auto;
     align-items: center;
-
 }
 
 

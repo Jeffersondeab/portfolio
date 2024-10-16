@@ -67,3 +67,23 @@
     }
 
 }
+
+
+
+@media screen and (max-width: 400px){
+      
+    .ads{  
+        width: 90vw;
+    }
+
+    .ads-list{
+        width: 90vw;
+    }
+
+    
+    .ads-img img{
+        width: 90vw;
+        
+    }
+
+}

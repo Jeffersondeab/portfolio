@@ -5,14 +5,11 @@
 }
 
 
- 
-
-
 .skill-container{
     width: 80vw;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 100px;
     margin-top: 5rem;
 }
@@ -102,7 +99,19 @@
     .skill-container{
         display: flex;
         flex-direction: column;
-
     }
 
+}
+
+
+@media screen and (max-width: 400px){
+
+    .skills{
+        min-width:90vw;
+    }
+
+    .skill-container{
+        width: 90vw;
+ 
+    }
 }

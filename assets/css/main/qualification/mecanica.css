@@ -75,3 +75,26 @@
     }
 
 }
+
+
+@media screen and (max-width: 400px){
+      
+    .mecanica{  
+        width: 90vw;
+    }
+
+    .mecanica-list{
+        width: 90vw;
+    }
+
+    
+    .mecanica-img img{
+        width: 90vw;
+        
+    }
+
+}
+
+
+
+
