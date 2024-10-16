@@ -11,7 +11,9 @@
 
 @media screen and (max-width:600px) {
 
-    
+    .navbar{
+        background: none;
+    }
 
     #wrapper.active{
         background-color: rgba(219, 12, 12, 0);
@@ -32,7 +34,7 @@
     .nav-list.active {
         background: #23232e7e;
         display: block;
-        top: 4.5%;
+        top:0%;
         width: 70%;
         min-height: 95vh;
         position: fixed;
@@ -45,15 +47,13 @@
         justify-content: center;
         margin: auto;
         width: 7rem;
-        line-height: 3rem;
+        line-height: 5rem;
     }
 
  
 
     .nav-btn:hover{
-        border-radius: 5rem; 
-        background-color: rgba(104, 104, 104, 0.281);
-        
+        border-radius: 1.5rem;        
     }
 
     @keyframes slideMainContent{
@@ -72,7 +72,6 @@
         margin: auto;
         display: flex;
         align-items: center;
- 
         position: fixed;
         cursor: pointer;
         background: none;

@@ -11,12 +11,17 @@ body{
     min-height: 100vh;
     background: var(--back);
     font-family: sans-serif;
+    background:  #242423;
 }
 
-
+ 
 .section:nth-child(odd){
-    background: rgba(46, 46, 46, 0.397);
+    background: #2e2e29a1;
 }
+
+/* .section:nth-child(odd){
+    background: rgba(46, 46, 46, 0.397);
+} */
 
 .heading{
     text-align: center;
