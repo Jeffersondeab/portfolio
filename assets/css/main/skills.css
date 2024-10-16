@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 100px;
-    margin-top: 5rem;
+    margin-top: 5rem;    
 }
 
 
@@ -40,9 +40,8 @@
 }
 
 .skill-info{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.829);
     text-align: center;
-    opacity: 0.5;
     font-size: 18px;
     line-height: 30px;
     hyphens: auto 

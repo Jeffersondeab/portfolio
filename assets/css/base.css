@@ -11,24 +11,25 @@ body{
     min-height: 100vh;
     background: var(--back);
     font-family: sans-serif;
-    background:  #afafafce;
+    background:  #000000ee;
 }
 
  
 .section:nth-child(odd){
-    background: #2e2e29a1;
+    background: #242323a4;
 }      
 
- 
 
 .heading{
     text-align: center;
     font-size: 40px;
-    color: #fff;
+    color: hwb(0 100% 0%);
     text-transform: capitalize;
     font-weight:300;
     padding-top: 4rem;
 }
+
+ 
 
 :root {
     --back: #191919;
