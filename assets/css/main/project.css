@@ -74,6 +74,8 @@
     .project-container {
         grid-template-columns: repeat(2, 1fr);
         font-size: 10px;
+        grid-gap:20px;
+        width: 80vw;
     }
 }
 
